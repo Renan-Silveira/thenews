@@ -32,6 +32,8 @@ E responder:
 - Inconsistência em colunas booleanas (`"True"`, `"FALSE"`, `"sim"`, `"não"`)
 - Tipos incorretos (strings representando booleanos e datas)
 - Valores ausentes em variáveis de perfil
+- Valores da coluna "state" com duplicidade. Ex: "Minas Gerais" | "MG"
+- Datas da coluna word_date como formatos diferentes.
 
 ### Tratamentos aplicados
 
@@ -39,6 +41,8 @@ E responder:
 - Conversão de tipos (`datetime`, `int`, `category`)
 - Remoção de registros inválidos ou incompletos
 - Normalização de categorias (device, setor, etc.)
+- Substituição dos valores em state para formato UF
+- Formatação da coluna de data para um padrão só
 
 ### Decisões importantes
 
