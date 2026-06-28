@@ -18,4 +18,7 @@ def clean_u(df):
     df['plays_other_word_games'] = df['plays_other_word_games'].astype(bool)
 
     df['newsletter_subscriber'] = df['newsletter_subscriber'].astype(bool)
+
+    df['state'] = df['state'].str.replace('SÃO PAULO', 'SP')
+    df['state'] = df['state'].str.replace('MINAS GERAIS', 'MG')
     return df
