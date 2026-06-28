@@ -69,6 +69,11 @@ E responder:
 
 ## Estrutura do projeto
 ```
+├── data/
+│ ├── df_a.parquet
+│ ├── df_s.parquet
+│ ├── df_u.parquet
+│ ├── df_cleaned.parquet
 │
 ├── modules/
 │ ├── clean_a.py
@@ -77,10 +82,7 @@ E responder:
 │ ├── clean_u.py
 │ ├── df_info.py
 │ ├── scrapper.py
-├── data/
-│ ├── df_a.parquet
-│ ├── df_s.parquet
-│ ├── df_u.parquet
+│
 ├── main.ipynb
 ```
 
