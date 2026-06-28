@@ -33,7 +33,8 @@ E responder:
 - Tipos incorretos (strings representando booleanos e datas)
 - Valores ausentes em variáveis de perfil
 - Valores da coluna "state" com duplicidade. Ex: "Minas Gerais" | "MG"
-- Datas da coluna word_date como formatos diferentes.
+- Datas da coluna word_date como formatos diferentes
+- Duplicatas pela chave primária
 
 ### Tratamentos aplicados
 
@@ -43,6 +44,7 @@ E responder:
 - Normalização de categorias (device, setor, etc.)
 - Substituição dos valores em state para formato UF
 - Formatação da coluna de data para um padrão só
+- Remoção das duplicatas
 
 ### Decisões importantes
 
