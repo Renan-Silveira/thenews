@@ -10,4 +10,5 @@ def clean_s(df):
     df['newsletter_open_before_game'] = df['newsletter_open_before_game'].astype(bool)
     df['active_d30'] = df['active_d30'].astype(bool)
     df = df.dropna()
+    df = df.drop_duplicates(subset='session_id', keep='first')
     return df

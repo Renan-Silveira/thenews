@@ -21,4 +21,5 @@ def clean_u(df):
 
     df['state'] = df['state'].str.replace('SÃO PAULO', 'SP')
     df['state'] = df['state'].str.replace('MINAS GERAIS', 'MG')
+    df = df.drop_duplicates(subset='user_id', keep='first')
     return df
