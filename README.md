@@ -53,7 +53,10 @@ E responder:
 - Investiguei sobre os dados não categóricos
 
 ---
+Resultado após o processo de limpeza:
+Registros: 9132 válidos
 
+---
 ## 2. Análise exploratória
 
 ### Variáveis analisadas
