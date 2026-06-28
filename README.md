@@ -48,7 +48,7 @@ E responder:
 
 ---
 
-## 📊 2. Análise exploratória
+## 2. Análise exploratória
 
 ### Variáveis analisadas
 
