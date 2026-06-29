@@ -12,6 +12,9 @@ O objetivo foi analisar o comportamento dos usuários no jogo **Palavritas**, um
 
 > O que determina se um usuário volta a jogar e como aumentar o engajamento (retenção D1 e D30)?
 
+## Documentação
+> Todas as conclusões sobre as análises estão contidas na página no streamlit.
+> Para detalhadamento mais técnico, tem os arquivos .ipynb dentro do diretório principal. Esses arquivos contém todo o processo de definição de métricas usadas e princípios para a conclusão no dashboard.
 
 ---
 
