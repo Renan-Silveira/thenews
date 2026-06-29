@@ -1,6 +1,9 @@
 # Case | Analista de Dados
 **the news | Palavritas**
 
+# URL: 
+[Acesse o Dashboard](https://thenews-bcebpbigrn6tsavraw8uqf.streamlit.app/)
+
 ---
 
 ## Sobre o desafio
