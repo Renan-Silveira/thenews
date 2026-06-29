@@ -89,7 +89,11 @@ E responder:
 │ ├── df_info.py
 │ ├── scrapper.py
 │
+├── app.py
+├── EDA_curr.ipynb
+├── EDA.ipynb
 ├── main.ipynb
+├── requirements.txt
 ```
 
 ---
@@ -101,6 +105,12 @@ E responder:
 - Google Sheets  
 
 ---
+
+## Resposta da opção pelo Python:
+```
+Apesar do metabase ser uma ótima ferramenta para dataviz, eu teria uma dificuldade de implementação visto a hospedagem.
+Prefiri então usar o próprio github para hospedar os arquivos e então usar o streamlit como ferramenta para dataviz.
+```
 
 ## Conclusão
 
